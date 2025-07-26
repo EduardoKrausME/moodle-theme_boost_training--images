@@ -1,0 +1,56 @@
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner .title,
+.banner .subtitle {
+    position: absolute;
+    color: white;
+    text-align: left;
+    left: 55%;
+    transform: translateX(-50%);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.banner .title {
+    top: 25%;
+    font-size: 2.8em;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: 'Georgia', serif;
+}
+
+.banner .subtitle {
+    top: 45%;
+    font-size: 1em;
+    max-width: 500px;
+    line-height: 1.4;
+    font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .banner .title {
+        font-size: 1.8em;
+        top: 20%;
+        left: 50%;
+    }
+
+    .banner .subtitle {
+        font-size: 0.9em;
+        top: 38%;
+        left: 50%;
+        max-width: 90%;
+    }
+}

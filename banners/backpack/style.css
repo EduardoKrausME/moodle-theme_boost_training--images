@@ -1,0 +1,32 @@
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 1152px; /* ajuste para a largura original da imagem */
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner .title {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+}
+
+.banner .subtitle {
+    position: absolute;
+    top: 45%;
+    left: 7%;
+    width: 35%;
+    font-size: 1rem;
+    color: #d0d0d0;
+    line-height: 1.6;
+}

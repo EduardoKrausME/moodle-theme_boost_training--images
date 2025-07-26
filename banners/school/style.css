@@ -1,0 +1,53 @@
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner .title,
+.banner .subtitle {
+    position: absolute;
+    left: 5%;
+    color: #1e1e1e;
+    text-shadow: 0 1px 3px rgba(255,255,255,0.8);
+}
+
+.banner .title {
+    top: 25%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    max-width: 40%;
+    line-height: 1.3;
+}
+
+.banner .subtitle {
+    top: 45%;
+    font-size: 1rem;
+    max-width: 35%;
+    line-height: 1.4;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .banner .title {
+        font-size: 1.8rem;
+        top: 20%;
+        max-width: 80%;
+    }
+
+    .banner .subtitle {
+        font-size: 0.9rem;
+        top: 40%;
+        max-width: 80%;
+    }
+}
